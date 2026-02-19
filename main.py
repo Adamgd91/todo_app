@@ -1,1 +1,3 @@
-user_text = input("Do you want to create a ToDo List? ")
+todo_input = input("Enter a todo item: ")
+
+print(f"Your todo's: {todo_input}")
