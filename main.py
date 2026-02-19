@@ -1,1 +1,1 @@
-questions = input("Do you want to create a ToDo List?")
+user_text = input("Do you want to create a ToDo List? ")
