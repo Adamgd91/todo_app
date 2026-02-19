@@ -1,3 +1,7 @@
-todo_input = input("Enter a todo item: ")
+todo1 = input("Enter a todo item: ")
+todo2 = input("Enter a todo item: ")
+todo3 = input("Enter a todo item: ")
 
-print(f"Your todo's: {todo_input}")
+list_todos = [todo1, todo2, todo3]
+
+print(f"Your todo's: {list_todos}")
