@@ -16,3 +16,11 @@ if password == "pass123":
     print(f"Password correct")
 else:
     print("You failed")
+
+
+members = ["john", "sarah", "dora"]
+
+
+for i in members:
+    cap_members = i.capitalize()
+    print(cap_members)
