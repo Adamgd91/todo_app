@@ -1,7 +1,7 @@
 list_todos = []
 
 while True:
-    user_action = input("Type add, show, or exit Todos: ")
+    user_action = input("Type add, show, or exit Todos: ").lower()
     user_action = user_action.strip()
 
     match user_action:
@@ -12,6 +12,15 @@ while True:
             for i in list_todos:
                 print(i)
         case "exit":
+            for i in list_todos:
+                print(i)
             break
 
-print(f"Thank you for making your todo list! \n {list_todos}")
+print(list_todos)
+
+
+def my_todos_func(list_todos):
+    return ", ".join(list_todos)
+
+
+print(f"Thank you for making your todo list! {my_todos_func(list_todos)}")
