@@ -24,3 +24,7 @@ members = ["john", "sarah", "dora"]
 for i in members:
     cap_members = i.capitalize()
     print(cap_members)
+
+
+for item in ["hello", "hi"]:
+    print(item.upper())
