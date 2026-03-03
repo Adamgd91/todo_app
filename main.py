@@ -23,4 +23,4 @@ def my_todos_func(list_todos):
     return ", ".join(list_todos)
 
 
-print(f"Thank you for making your todo list! {my_todos_func(list_todos)}")
+print(f"Thank you for making your todo list! {my_todos_func(list_todos)}!")
